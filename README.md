@@ -3,7 +3,7 @@
 
 
 > **[Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel 
-> sans en changer son comportement observable](http://refactoring.com/) *(M. Fowler)***
+> sans en changer son comportement observable](http://refactoring.com/)** *(M. Fowler)*
 
 
 Ce tutoriel s'appuie sur l'exemple *simplifié* du premier chapitre du livre [Refactoring, Improving the Design of Existing Code de Martin Fowler](http://martinfowler.com/books/refactoring.html) <img src="http://www.martinfowler.com/books/refactoringBook.jpg" alt="Livre Refactoring" width="70">
@@ -29,7 +29,7 @@ L'exemple de refactoring va être déroulé pas à pas sous Eclipse selon les é
 
 Et il se terminera par :   
 
-* [Quelques remarques illustrées sur les commentaires](commentaires.md)  
+* [Quelques remarques en images sur l'intention du code et les commentaires](commentaires.md)  
 * [Des katas pour s'entraîner au refactoring](katas.md)  
 * [Quelques références autour du refactoring](references.md)  
 
@@ -37,7 +37,7 @@ Et il se terminera par :
 Pour vous aider à suivre plus facilement ce tutoriel, la présentation du tutoriel disponible [ici](Refactoring_PremierExempleStepByStep.pdf) peut vous servir de roadmap.  
   
 
-### Continuez le tutoriel par la [présentation de l'exemple à refactorer](presentationExempleRefactoring.md)  
+### Continuez le tutoriel par la [présentation de l'exemple à refactorer](refactoring_presentationExemple.md)  
 
 
 ## Licence

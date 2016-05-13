@@ -1,4 +1,4 @@
-# Quelques remarques illustrées sur les commentaires
+# Quelques remarques en images sur l'intention du code et les commentaires
 
 Le quatrième chapitre du livre [Clean Code](www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) est consacré aux commentaires et il commence par la citation suivante de Brian W. Kernihan and P.J Plaugher : *Dont't comment bad code - rewrite it*
 

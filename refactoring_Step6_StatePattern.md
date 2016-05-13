@@ -347,5 +347,5 @@ Grâce à la mise en place d'un pattern d'Etat, tout semble désormais prêt pou
 C'est bien le tarif (`Price`) qui est responsable de la règle de calcul des frais de location ...
 
 
-### Continuez le tutoriel par [quelques remarques imagées sur l'intention du code et les commentaires](commentaires.md)  
+### Continuez le tutoriel par [quelques remarques en images sur l'intention du code et les commentaires](commentaires.md)  
 

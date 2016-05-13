@@ -3,7 +3,7 @@
 Rappelons la définition du refactoring :
 
 > **[Un refactoring (remaniement) consiste à changer la structure interne d’un logiciel 
-> sans en changer son comportement observable](http://refactoring.com/) *(M. Fowler)***
+> sans en changer son comportement observable](http://refactoring.com/)** *(M. Fowler)*
 
 Pour garantir le comportement du système, il est donc indispensable, avant de procéder à un quelconque refactoring, de disposer d'un ensemble de tests automatisés. Ces tests serviront de *filet de sécurité* et permettront de remanier le code en toute sécurité : ce sont des tests de régression qui, pouvant être exécutés à tout moment, préviennent la non-régression du logiciel.
 
@@ -35,11 +35,11 @@ Commencez par créer une classe de tests `CustomerTest.java`.
 
 L'acronyme **FIRST** introduit par [Robert C. Martin](https://twitter.com/unclebobmartin) dans [Clean Code](www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) rappelle les propriétés relatives à un *clean* test :
 
-* ***F**ast* : rapide pour être fréquemment activé. 
-* ***I**ndependent* : indépendant pour être exécuté de manière isolée des autres tests. 
-* ***R**epeatable* :  reproductible pour être exécuté dans n'importe quel environnement. 
-* ***S**elf-Validating* : auto-validant pour identifier rapidement le verdict
-* ***T**imely* :  écrit au moment opportun
+* **F**ast : rapide pour être fréquemment activé. 
+* **I**ndependent : indépendant pour être exécuté de manière isolée des autres tests. 
+* **R**epeatable :  reproductible pour être exécuté dans n'importe quel environnement. 
+* **S**elf-Validating : auto-validant pour identifier rapidement le verdict
+* **T**imely :  écrit au moment opportun
 
 Pour respecter ces propriétés (notamment *Fast* et *Independent*), nous allons écrire dans notre classe de tests **une méthode de test pour chaque comportement du système à tester**.
 
@@ -57,9 +57,9 @@ Quant au moment opportun (*Timely*), il se situe bien sûr pour nous AVANT de pr
 Pour formater et structurer au mieux un test, le [pattern ***AAA***](http://c2.com/cgi/wiki?ArrangeActAssert) (***A***rrange ***A***ct ***A***ssert) est préconisé pour l'écriture d'un test.  
 Ce patron décompose le test en trois étapes distinctes :
  
-* ***A**rrange* : l'**initialisation** de l'acteur sous test c-a-d l'initialisation des objets nécessaires à l'exécution de la méthode à tester. 
-* ***A**ct* : l'exécution de l'**action** à tester c-a-d l'appel de la méthode à tester. 
-* ***A**ssert* : l'**assertion** sur la réaction de l'acteur c-a-d la vérification entre le comportement attendu et le comportement réel de la méthode à tester.
+* **A**rrange : l'**initialisation** de l'acteur sous test c-a-d l'initialisation des objets nécessaires à l'exécution de la méthode à tester. 
+* **A**ct : l'exécution de l'**action** à tester c-a-d l'appel de la méthode à tester. 
+* **A**ssert : l'**assertion** sur la réaction de l'acteur c-a-d la vérification entre le comportement attendu et le comportement réel de la méthode à tester.
 
 
 #### Un premier test relatif au comportement des vidéos de type `REGULAR`
@@ -91,9 +91,9 @@ La méthode de test relative à ce comportement est la suivante.
 
 Cette méthode a été écrite en trois parties suivant le [pattern ***AAA***](http://c2.com/cgi/wiki?ArrangeActAssert) :
 
-* la partie ***A**rrange* permet d'instancier les objets `movie` et  `rental` pour construire un `customer` ayant loué depuis 3 jours une vidéo de type `REGULAR`.
-* la partie ***A**ct* consiste à appeler la méthode `statement()` à tester.
-* la partie ***A**ssert* consiste à comparer que la chaîne obtenue suite à l'exécution (`statement`) de la méthode est bien conforme à la chaîne attendue (`expected`).
+* la partie **A**rrange permet d'instancier les objets `movie` et  `rental` pour construire un `customer` ayant loué depuis 3 jours une vidéo de type `REGULAR`.
+* la partie **A**ct consiste à appeler la méthode `statement()` à tester.
+* la partie **A**ssert consiste à comparer que la chaîne obtenue suite à l'exécution (`statement`) de la méthode est bien conforme à la chaîne attendue (`expected`).
 
 Copiez ce code dans votre classe de test `CustomerTest.java` et exécutez le test unitaire afin de vérifier qu'il ***passe*** et que vos voyants sont bien au ***VERT*** !
 
@@ -281,7 +281,7 @@ Une article autour de la couverture de test est également proposé par Martin F
 
 
 Maintenant que tout est prêt, nous allons enfin pourvoir commencer notre refactoring.
-### Continuez le tutoriel par [isoler le calcul du montant des frais d'une location, de l'affichage du relevé (à l'aide d'un **`Extract method`**)](Refactoring_Step1_ExtractMethod.md)  
+### Continuez le tutoriel par [isoler le calcul du montant des frais d'une location, de l'affichage du relevé (à l'aide d'un **`Extract method`**)](refactoring_Step1_ExtractMethod.md)  
 
 
 --- 

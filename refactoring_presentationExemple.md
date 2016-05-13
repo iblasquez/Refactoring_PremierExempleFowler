@@ -124,4 +124,4 @@ Pour cela, nous procéderons donc également à ...
 * [Mettre en place un système de tarification évolutif et modulable grâce au **State Pattern**](refactoring_Step6_StatePattern.md)  
 
 
-### Continuez le tutoriel par [pas de refactoring sans tests!](refactoring_Step0_miseEnPlaceTests.md)  
+### Continuez le tutoriel par [pas de refactoring sans test!](refactoring_Step0_miseEnPlaceTests.md)  

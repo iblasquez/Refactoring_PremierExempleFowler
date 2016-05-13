@@ -139,7 +139,7 @@ Des vidéos à picorer :
 
 * [Crafties](https://www.youtube.com/channel/UCZjAiQD5Wl_vLQPvzT6dl1g)   
 * [Code Refactoring de Derek Banas](https://www.youtube.com/watch?v=vhYK3pDUijk)   
-* [Brunon Belmondo](https://www.youtube.com/channel/UC2dBmR9WVst0LTpQqGi4bCw) 
+* [Bruno Belmondo](https://www.youtube.com/channel/UC2dBmR9WVst0LTpQqGi4bCw) 
 
 
 
