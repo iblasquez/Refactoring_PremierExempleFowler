@@ -49,9 +49,10 @@
 
 ## Des exemples de refactoring du premier exemple de [Refactoring, Improving the Design of Existing Code](http://martinfowler.com/books/refactoring.html)
 
-* [Videostore example](https://github.com/unclebob/videostore) by Uncle Bob
+* [Refactoring a javascript video store](http://martinfowler.com/articles/refactoring-video-store-js/) by Martin Fowler  
 * [Refactoring Improving the Design of Existing Code en C++](http://jczeus.com/refac_cpp.html) by Martin Fowler, with contributions by Kent Beck, John Brant, William Opdyke, and Don Roberts
-* [Refactoring Improving the Design of Existing Code en Perl](http://jczeus.com/refac_perl.html) by Martin Fowler, with contributions by Kent Beck, John Brant, William Opdyke, and Don Roberts
+* [Refactoring Improving the Design of Existing Code en Perl](http://jczeus.com/refac_perl.html) by Martin Fowler, with contributions by Kent Beck, John Brant, William Opdyke, and Don Roberts  
+* [Videostore example](https://github.com/unclebob/videostore) by Uncle Bob
 
 
 ## Vidéo pas à pas du premier exemple de [Refactoring, Improving the Design of Existing Code](http://martinfowler.com/books/refactoring.html)
