@@ -130,11 +130,15 @@ En version un peu plus longue au Ch'ti JUG :
 ## Et quelques liens pour finir ...
 
 [The Core 6 Refactorings ](http://arlobelshee.com/the-core-6-refactorings/)  
-[Refactorer, c'est comme dormir](https://nphumbert.github.io/blog/2016/01/31/refactorer-c-est-comme-dormir/)   
-[Refactoring as a way to understand code](http://composition.al/blog/2015/12/29/refactoring-as-a-way-to-understand-code/)  
+[Refactorer, c'est comme dormir](https://nphumbert.github.io/blog/2016/01/31/refactorer-c-est-comme-dormir/) avec les slides disponibles [ici](https://slides.com/nphumbert/deck/fullscreen#/)    
+[Refactoring as a way to understand code](http://composition.al/blog/2015/12/29/refactoring-as-a-way-to-understand-code/)    
+[What Refactoring is, and what it isn’t](https://www.javacodegeeks.com/2012/04/what-refactoring-is-and-what-it-isnt.html)  
 [Legacy code – se défaire des dépendances statiques](http://blog.xebia.fr/2015/01/23/legacy-code-se-defaire-des-dependances-statiques/)     
  
 [Why Should Software Architects Write Code? ](http://blog.ieeesoftware.org/2016/02/why-should-software-architects-write.html)  
+
+
+[Resources on Refactoring by Bill Wake](http://xp123.com/articles/resources-on-refactoring/)
 
 Des vidéos à picorer :  
 

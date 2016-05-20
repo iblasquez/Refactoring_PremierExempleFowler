@@ -33,6 +33,10 @@ Disponible [ici](https://github.com/sandromancuso/trip-service-kata) depuis le g
 Disponible [ici](https://github.com/emilybache/GildedRose-Refactoring-Kata) sur le github d'[Emily Bache](https://twitter.com/emilybache).
 
 
+## Refactoring Challenge : the Amazing Maze
+Disponible [ici](https://github.com/f-lombardo/AmazingRefactoring/tree/master) d'après un post original de Bill wake [ici](http://xp123.com/articles/refactoring-challenge-the-amazing-maze/)
+
+
 ### Terminez le tutoriel par [quelques références autour du refactoring](references.md)  
 
 
